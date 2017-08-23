@@ -1,0 +1,17 @@
+//05- Faça um programa que leia o peso e a altura e calcule o IMC
+
+#include<stdio.h>
+#include<conio.h>
+
+int main ()
+{
+    float peso, altura, IMC;
+    printf ("Informe o Peso em Kg: ");
+    scanf ("%f",&peso);
+    printf ("Informe a Altura em metros: ");
+    scanf ("%f",&altura);
+
+    IMC = peso / (altura*altura);
+    printf ("O IMC e : %.2f",IMC);
+    getch();
+}
